@@ -1,4 +1,4 @@
-# 🎬 Azure Netflix Data Pipeline
+# 🎬 Streaming Media Analytics Lakehouse
 
 An end-to-end Data Engineering project built using Azure ecosystem and Databricks to ingest, process, transform, and manage Netflix data using Medallion Architecture (Raw → Silver → Gold).
 
