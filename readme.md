@@ -1,6 +1,6 @@
 # 🎬 Streaming Media Analytics Lakehouse
 
-An end-to-end Data Engineering project built using Azure ecosystem and Databricks to ingest, process, transform, and manage Netflix data using Medallion Architecture (Raw → Silver → Gold).
+An end-to-end Data Engineering project built using Azure ecosystem and Databricks to ingest, process, transform, and manage movies data using Medallion Architecture (Raw → Silver → Gold).
 
 ---
 
@@ -16,7 +16,7 @@ This project demonstrates a modern cloud-based data engineering pipeline using:
 - REST API Integration
 - Dynamic Parameterization
 
-The pipeline fetches Netflix dataset files from GitHub using REST API, processes them through different data layers, and creates optimized curated datasets in the Gold layer.
+The pipeline fetches dataset files from GitHub using REST API, processes them through different data layers, and creates optimized curated datasets in the Gold layer.
 
 ---
 
@@ -62,7 +62,7 @@ Gold Layer
 - Used Copy Activity in ADF to ingest files from GitHub.
 - Created dynamic Source and Sink datasets using parameters.
 - Implemented ForEach Activity to process multiple files dynamically.
-- Added validation logic to run pipeline only if `netflix_titles.csv` exists in Raw layer.
+- Added validation logic to run pipeline only if `titles.csv` exists in Raw layer.
 - Used Web Activity to fetch metadata of files.
 - Created variables and Set Variable Activity to dynamically store metadata.
 
