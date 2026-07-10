@@ -120,7 +120,7 @@ Used Delta Live Tables (DLT) to create curated Gold layer datasets.
 # 📁 Project Structure
 
 ```bash
-azure-netflix-data-pipeline/
+azure-streaming-data-pipeline/
 │
 ├── adf-pipelines/
 ├── databricks-notebooks/
